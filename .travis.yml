@@ -1,9 +1,12 @@
 language: go
 
 go:
-- 1.12.x
-- master
+    - 1.12.x
+    - master
 
 env:
-  - GOOS=linux GOARCH=386
-  - GOOS=linux GOARCH=arm
+    - GOOS=linux GOARCH=386
+    - GOOS=linux GOARCH=arm
+
+before_install:
+    - go get -v github.com/stretchr/testify/assert
