@@ -1,4 +1,4 @@
-# pelcod [![GoDoc](https://godoc.org/github.com/1800alex/go-protocol-pelcod?status.svg)](https://godoc.org/github.com/1800alex/go-protocol-pelcod)
+# pelcod [![GoDoc](https://godoc.org/github.com/1800alex/go-protocol-pelcod?status.svg)](https://godoc.org/github.com/1800alex/go-protocol-pelcod) [![Build Status](https://travis-ci.org/1800alex/go-protocol-pelcod.png?branch=master)](https://travis-ci.org/1800alex/go-protocol-pelcod)
 Package pelcod is a package capable of building and parsing PelcoD messages.
 
 Download:

@@ -4,4 +4,8 @@ go:
 - 1.12.x
 - master
 
-script: go test -v ./
+env:
+  - GOOS=linux CGO=1
+  - GOOS=linux CGO=0
+  - GOOS=linux GOARCH=386
+  - GOOS=linux GOARCH=arm
