@@ -1,4 +1,6 @@
-# pelcod [![GoDoc](https://godoc.org/github.com/1800alex/go-protocol-pelcod?status.svg)](https://godoc.org/github.com/1800alex/go-protocol-pelcod) [![Build Status](https://travis-ci.com/1800alex/go-protocol-pelcod.png?branch=master)](https://travis-ci.com/1800alex/go-protocol-pelcod)
+# pelcod [![GoDoc](https://godoc.org/github.com/1800alex/go-protocol-pelcod?status.svg)](https://godoc.org/github.com/1800alex/go-protocol-pelcod) [![Build Status](https://travis-ci.com/1800alex/go-protocol-pelcod.svg?branch=master)](https://travis-ci.com/1800alex/go-protocol-pelcod)
+*/}} [![Coverage Status](https://coveralls.io/repos/github/1800alex/go-protocol-pelcod/badge.svg?branch=master)](https://coveralls.io/github/1800alex/go-protocol-pelcod?branch=master)
+*/}} [![Go Report Card](https://goreportcard.com/badge/github.com/1800alex/go-protocol-pelcod)](https://goreportcard.com/report/github.com/1800alex/go-protocol-pelcod)
 Package go-protocol-pelcod is a package capable of building and parsing PelcoD messages.
 
 Download:
