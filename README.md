@@ -15,3 +15,44 @@ TODO Build NACK.
 
 
 
+
+# Examples
+
+BuildACK
+Code:
+
+```
+{
+	result := BuildACK([]byte{0x00, 0x01, 0x09})
+	fmt.Printf("%x\n", result)
+}
+```
+
+
+BuildSTX
+Code:
+
+```
+{
+	result := BuildSTX([]byte{0x00, 0x01, 0x09})
+	fmt.Printf("%x\n", result)
+}
+```
+
+
+Parse
+Code:
+
+```
+{
+	result, err := Parse([]byte{0x02, 0x00, 0x01, 0x09, 0x08, 0x03})
+	if err != nil {
+		fmt.Println(err.Error())
+		return
+	}
+	fmt.Printf("%x\n", result)
+}
+```
+
+
+
